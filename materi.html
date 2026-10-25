@@ -27,7 +27,7 @@ main{width:min(1100px,90%);margin:48px auto}.eyebrow{color:var(--green);letter-s
 <section class="card"><span class="tag">MODUL 01</span><h2>Fondasi TI</h2><p>Tempat untuk catatan lengkap berdasarkan PDF Modul 01, termasuk semua subbab, istilah, contoh, rangkuman, dan latihan.</p><p class="muted">Menunggu PDF sumber Modul 01.</p></section>
 <section class="card"><span class="tag">MODUL 04</span><h2>Programs and Apps</h2><p>Jenis program, aplikasi produktivitas, multimedia, komunikasi, keamanan, dan pengelolaan sistem.</p><a href="#modul04">Buka materi ↓</a></section>
 <section class="card"><span class="tag">MODUL 05</span><h2>Digital Security, Ethics and Privacy</h2><p>Risiko keamanan digital, serangan internet dan jaringan, hak cipta, etika teknologi, dan privasi.</p><a href="#modul05">Buka materi ↓</a></section>
-<section class="card"><span class="tag">MODUL 06</span><h2>Materi lanjutan</h2><p>Konten akan mengikuti struktur PDF Modul 06 agar tidak menebak isi materi.</p><p class="muted">Menunggu PDF sumber Modul 06.</p></section>
+<section class="card"><span class="tag">MODUL 06</span><h2>Komponen Komputer</h2><p>Komponen di dalam casing, processor, memory, adapter, power supply, baterai, dan representasi data.</p><a href="#modul06">Buka materi ↓</a> · <a href="TTI-6.pdf" target="_blank" rel="noreferrer">PDF sumber ↗</a></section>
 </div>
 <details class="module" id="modul04" open>
 <summary>MODUL 04 — PROGRAMS AND APPS</summary>
@@ -69,8 +69,93 @@ main{width:min(1100px,90%);margin:48px auto}.eyebrow{color:var(--green);letter-s
 <h3>Rangkuman</h3><p>Keamanan digital bergantung pada teknologi dan perilaku pengguna. Lindungi kredensial, waspadai rekayasa sosial, hormati lisensi, dan kelola informasi pribadi dengan bijak.</p>
 <h3>Latihan mandiri</h3><ol><li>Apa perbedaan risiko keamanan digital dan cybercrime?</li><li>Sebutkan ciri pesan phishing.</li><li>Berikan contoh social engineering.</li><li>Mengapa lisensi perangkat lunak harus diperiksa?</li><li>Sebutkan manfaat cookies dan satu hal yang perlu diwaspadai.</li></ol>
 </details>
-<p class="note"><b>Catatan sumber:</b> Materi ini merupakan ringkasan belajar dan tidak menggantikan PDF resmi dosen. Untuk membuat Modul 01 dan 06 lengkap tanpa menebak subbab, PDF sumbernya perlu tersedia.</p>
+<details class="module" id="modul06" open>
+<summary>MODUL 06 — KOMPONEN KOMPUTER & REPRESENTASI DATA</summary>
+<p><b>Tujuan belajar:</b> memahami komponen komputer yang terdapat di dalam casing serta memahami cara komputer merepresentasikan data menggunakan sistem bilangan.</p>
+
+<svg viewBox="0 0 900 300" role="img" aria-label="Diagram komponen komputer di dalam casing" style="display:block;width:100%;height:auto;margin:18px 0 26px;border:1px solid rgba(0,246,255,.3);border-radius:8px;background:linear-gradient(135deg,rgba(0,246,255,.07),rgba(255,43,214,.06))">
+  <rect x="28" y="28" width="270" height="230" rx="12" fill="#071722" stroke="#00f6ff" stroke-width="3"/><rect x="54" y="56" width="218" height="165" rx="7" fill="#0b2633" stroke="#177e89" stroke-width="2"/>
+  <rect x="76" y="76" width="105" height="72" rx="5" fill="#122f3b" stroke="#ff2bd6"/><circle cx="128" cy="112" r="21" fill="#071722" stroke="#00f6ff" stroke-width="3"/><text x="128" y="116" text-anchor="middle" fill="#00f6ff" font-size="11" font-family="monospace">CPU</text>
+  <rect x="198" y="76" width="42" height="72" rx="3" fill="#173d49" stroke="#00ffd5"/><path d="M207 88h24M207 101h24M207 114h24M207 127h24" stroke="#00ffd5" stroke-width="3"/>
+  <rect x="78" y="170" width="160" height="22" rx="3" fill="#173d49" stroke="#00f6ff"/><path d="M90 181h136" stroke="#00f6ff" stroke-width="2" stroke-dasharray="6 5"/><text x="161" y="211" text-anchor="middle" fill="#73a9ac" font-size="11" font-family="monospace">MOTHERBOARD</text>
+  <g font-family="monospace" font-size="14" text-anchor="middle"><rect x="395" y="44" width="150" height="55" rx="8" fill="#071722" stroke="#00ffd5"/><text x="470" y="77" fill="#00ffd5">PROCESSOR</text><rect x="395" y="123" width="150" height="55" rx="8" fill="#071722" stroke="#00f6ff"/><text x="470" y="156" fill="#00f6ff">MEMORY / RAM</text><rect x="395" y="202" width="150" height="55" rx="8" fill="#071722" stroke="#ff2bd6"/><text x="470" y="235" fill="#ff2bd6">ADAPTER</text><path d="M298 113h80m-16 -9 16 9-16 9M298 163h80m-16 -9 16 9-16 9M298 214h80m-16 -9 16 9-16 9" stroke="#00f6ff" stroke-width="3" fill="none"/></g>
+  <g font-family="monospace" font-size="14" text-anchor="middle"><rect x="650" y="78" width="190" height="55" rx="8" fill="#071722" stroke="#f4db68"/><text x="745" y="111" fill="#f4db68">POWER SUPPLY</text><rect x="650" y="171" width="190" height="55" rx="8" fill="#071722" stroke="#ff2bd6"/><text x="745" y="204" fill="#ff2bd6">BATTERY / CHARGER</text><path d="M545 71h75m-16 -9 16 9-16 9M545 229h75m-16 -9 16 9-16 9" stroke="#00ffd5" stroke-width="3" fill="none"/></g>
+</svg>
+<p class="muted">Gambar konseptual: komponen di dalam casing saling bekerja sama untuk memproses, menyimpan, menghubungkan, dan memberi daya pada sistem.</p>
+
+<h3>1.1 Komponen Komputer dalam Casing</h3>
+<div class="grid">
+  <article class="card"><span class="tag">01 / MAIN BOARD</span><h3>Motherboard</h3><p>Papan sirkuit utama komputer. Komponen seperti processor, RAM, slot adapter, dan konektor lain terintegrasi atau terhubung di sini.</p></article>
+  <article class="card"><span class="tag">02 / CPU</span><h3>Processor</h3><p>Central Processing Unit menafsirkan dan melaksanakan instruksi dasar. Processor memiliki unit kontrol, ALU, register, dan system clock.</p></article>
+  <article class="card"><span class="tag">03 / STORAGE</span><h3>Memory</h3><p>Menyimpan instruksi, data yang sedang diproses, sistem operasi, aplikasi, dan hasil pengolahan. Kapasitas umum diukur dalam GB atau TB.</p></article>
+  <article class="card"><span class="tag">04 / CONNECTION</span><h3>Adapter</h3><p>Komponen yang menyediakan koneksi ke perangkat lain, misalnya sound card, video card, dan USB adapter melalui expansion slot atau port.</p></article>
+  <article class="card"><span class="tag">05 / POWER</span><h3>Power supply & baterai</h3><p>Power supply dan charger mengubah arus AC menjadi DC. Perangkat notebook dan mobile menggunakan baterai, umumnya lithium-ion.</p></article>
+</div>
+
+<h3>Processor: empat langkah dalam satu siklus</h3>
+<p>Untuk setiap instruksi, processor mengulangi siklus mesin. Unit kontrol mengarahkan operasi, ALU menjalankan aritmatika dan perbandingan, register menyimpan data sementara, sedangkan system clock mengatur waktunya.</p>
+<div class="grid">
+  <article class="card"><span class="tag">01</span><h3>Fetch</h3><p>Instruksi diambil dari memory.</p></article>
+  <article class="card"><span class="tag">02</span><h3>Decode</h3><p>Instruksi diterjemahkan oleh unit kontrol.</p></article>
+  <article class="card"><span class="tag">03</span><h3>Execute</h3><p>ALU atau unit terkait menjalankan perintah.</p></article>
+  <article class="card"><span class="tag">04</span><h3>Store</h3><p>Hasil disimpan kembali untuk digunakan.</p></article>
+</div>
+<p class="note"><b>Catatan:</b> Chip processor menghasilkan panas. Pendinginan tambahan membantu mencegah kegagalan fungsi saat processor bekerja.</p>
+
+<h3>Memory: volatile dan non-volatile</h3>
+<div class="grid">
+  <article class="card"><span class="tag">VOLATILE</span><h3>RAM</h3><p>Isi mudah berubah dan hilang ketika daya listrik terputus. RAM dapat berupa SRAM atau DRAM. Cache menyimpan instruksi dan data yang sering digunakan agar proses lebih cepat.</p></article>
+  <article class="card"><span class="tag">NON-VOLATILE</span><h3>ROM, Flash, CMOS</h3><p>Data tetap tersimpan meski daya hilang. ROM menyimpan data permanen; Flash dapat dihapus dan diprogram ulang; CMOS dibantu baterai untuk menyimpan informasi saat komputer mati.</p></article>
+</div>
+<p><b>Access time</b> adalah waktu yang diperlukan processor untuk membaca data dari memory, biasanya diukur dalam nanosecond. Setiap lokasi memory memiliki alamat tertentu.</p>
+
+<h3>1.2 Representasi Data</h3>
+<p>Manusia umumnya menggunakan basis 10 atau desimal. Mesin menggunakan basis 2 atau biner untuk komunikasi data, basis 8 atau oktal untuk sebagian pengalamatan, dan basis 16 atau heksadesimal untuk pengalamatan serta kode warna.</p>
+<div class="grid">
+  <article class="card"><span class="tag">DECIMAL / BASIS 10</span><h3>0–9</h3><p>Angka yang umum digunakan manusia. Contoh: 23<sub>10</sub> dan 907<sub>10</sub>.</p></article>
+  <article class="card"><span class="tag">BINARY / BASIS 2</span><h3>0–1</h3><p>Disebut bit. Contoh: 101<sub>2</sub> memiliki panjang data 3 bit.</p></article>
+  <article class="card"><span class="tag">OCTAL / BASIS 8</span><h3>0–7</h3><p>Contoh: 23<sub>8</sub>. Setiap digit oktal dapat mewakili tiga bit.</p></article>
+  <article class="card"><span class="tag">HEXADECIMAL / BASIS 16</span><h3>0–9, A–F</h3><p>Contoh: A2<sub>16</sub> atau 0xA2. Sering digunakan dalam pengkodean warna dan memori.</p></article>
+</div>
+
+<h3>Contoh konversi biner ke desimal</h3>
+<p>Gunakan nilai tempat berbasis pangkat dua dari kanan ke kiri: 2<sup>0</sup>, 2<sup>1</sup>, 2<sup>2</sup>, dan seterusnya.</p>
+<div class="note"><b>(0101)<sub>2</sub></b> = 0×2<sup>3</sup> + 1×2<sup>2</sup> + 0×2<sup>1</sup> + 1×2<sup>0</sup> = 0 + 4 + 0 + 1 = <b>5<sub>10</sub></b></div>
+
+<div class="card" style="margin-top:22px;border-color:rgba(0,255,213,.5)">
+  <span class="tag">INTERACTIVE LAB</span><h3>Konverter bilangan sederhana</h3>
+  <p>Masukkan bilangan desimal atau biner untuk melihat pasangan nilainya.</p>
+  <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(190px,1fr));gap:12px;align-items:end">
+    <label style="display:grid;gap:5px;color:var(--muted);font-size:12px">Desimal<input id="decimalInput" type="number" min="0" value="5" style="padding:10px;background:#071722;color:var(--text);border:1px solid rgba(0,246,255,.4);font:inherit"></label>
+    <label style="display:grid;gap:5px;color:var(--muted);font-size:12px">Biner<input id="binaryInput" type="text" inputmode="numeric" value="0101" style="padding:10px;background:#071722;color:var(--text);border:1px solid rgba(0,246,255,.4);font:inherit"></label>
+    <button id="convertBtn" type="button" style="padding:11px 15px;background:var(--cyan);color:#031017;border:0;font:700 12px 'Share Tech Mono',monospace;cursor:pointer">CONVERT ↗</button>
+  </div>
+  <p id="conversionResult" style="color:var(--green);margin-bottom:0">Hasil: 5<sub>10</sub> = 0101<sub>2</sub></p>
+</div>
+
+<h3>Rangkuman Modul 06</h3>
+<p>Komputer memiliki berbagai komponen yang saling melengkapi. Motherboard menjadi papan utama; processor menjalankan instruksi; memory menyimpan instruksi, data, dan hasil; adapter menyediakan koneksi; power supply dan baterai menyediakan daya. Komputer merepresentasikan data dengan sistem bilangan, terutama biner.</p>
+<h3>Latihan mandiri</h3>
+<ol><li>Jelaskan perbedaan volatile memory dan non-volatile memory serta berikan contohnya.</li><li>Jelaskan fungsi unit kontrol dan ALU pada processor.</li><li>Ubahlah 45<sub>10</sub> menjadi bilangan biner.</li><li>Ubahlah 95<sub>10</sub> menjadi bilangan biner.</li><li>Ubahlah 101101<sub>2</sub> dan 10011<sub>2</sub> menjadi bilangan desimal.</li></ol>
+<p class="muted"><b>Referensi:</b> B. Shelly & E. Vermaat, <i>Discovering Computers 2016: Living in a Digital World</i>; serta materi sistem bilangan dan representasi data yang tercantum pada PDF TTI#6.</p>
+</details>
+<p class="note"><b>Catatan sumber:</b> Materi ini merupakan ringkasan belajar berdasarkan PDF resmi dosen. Gunakan <a href="TTI-6.pdf" target="_blank" rel="noreferrer">TTI#6.pdf</a> sebagai referensi utama.</p>
 </main>
 <footer><span>© 2026 SEHAN//SYSTEM</span><span>KNOWLEDGE DATABASE</span><span>LEARN • BUILD • SECURE</span></footer>
+<script>
+const decimalInput = document.getElementById('decimalInput');
+const binaryInput = document.getElementById('binaryInput');
+const conversionResult = document.getElementById('conversionResult');
+document.getElementById('convertBtn')?.addEventListener('click', () => {
+  const decimal = Math.max(0, Number.parseInt(decimalInput.value, 10) || 0);
+  const cleanBinary = binaryInput.value.trim().replace(/[^01]/g, '');
+  const fromBinary = cleanBinary ? Number.parseInt(cleanBinary, 2) : decimal;
+  const finalDecimal = Number.isFinite(fromBinary) ? fromBinary : decimal;
+  const finalBinary = finalDecimal.toString(2).padStart(4, '0');
+  decimalInput.value = finalDecimal;
+  binaryInput.value = finalBinary;
+  conversionResult.innerHTML = `Hasil: ${finalDecimal}<sub>10</sub> = ${finalBinary}<sub>2</sub>`;
+});
+</script>
 </body>
 </html>
