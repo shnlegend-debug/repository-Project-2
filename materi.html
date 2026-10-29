@@ -283,6 +283,65 @@ main{width:min(1100px,90%);margin:48px auto}.eyebrow{color:var(--green);letter-s
 </ul>
 <p>Output juga dapat berupa berkas, notifikasi, laporan, data jaringan, atau respons API. Output yang baik harus relevan, mudah dipahami, dan tidak menyesatkan. Sistem penting sebaiknya memberikan status atau peringatan saat diperlukan.</p>
 
+
+<figure id="output-visual" style="margin:22px 0;padding:18px;border:1px solid rgba(0,246,255,.35);border-radius:14px;background:linear-gradient(135deg,rgba(0,246,255,.09),rgba(137,92,255,.12));">
+<svg viewBox="0 0 960 390" role="img" aria-labelledby="output-svg-title output-svg-desc" style="display:block;width:100%;height:auto">
+<title id="output-svg-title">Infografik perangkat dan jenis output komputer</title>
+<desc id="output-svg-desc">Diagram monitor untuk output visual, speaker untuk output audio, printer untuk output fisik, dan lampu indikator untuk output berupa status sistem.</desc>
+<defs>
+  <linearGradient id="out-bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#142c52"/><stop offset="1" stop-color="#35245f"/></linearGradient>
+  <linearGradient id="out-screen" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#4de5ff"/><stop offset="1" stop-color="#9b8bff"/></linearGradient>
+</defs>
+<rect x="1" y="1" width="958" height="388" rx="18" fill="url(#out-bg)" stroke="#5cecff" stroke-opacity=".65"/>
+<text x="32" y="43" fill="#ffffff" font-size="25" font-weight="700" font-family="system-ui,sans-serif">OUTPUT KOMPUTER</text>
+<text x="32" y="68" fill="#bfeaff" font-size="14" font-family="system-ui,sans-serif">Hasil pemrosesan disampaikan kepada pengguna atau perangkat lain</text>
+<path d="M75 100 H885" stroke="#8c9eff" stroke-opacity=".5" stroke-dasharray="5 7"/>
+<!-- Monitor -->
+<g transform="translate(75 119)">
+<rect x="0" y="0" width="174" height="112" rx="10" fill="#0a1830" stroke="#76eaff" stroke-width="3"/>
+<rect x="10" y="10" width="154" height="88" rx="5" fill="url(#out-screen)"/>
+<path d="M18 79 L57 42 L84 63 L116 27 L158 70 V95 H18Z" fill="#eefcff" fill-opacity=".78"/>
+<path d="M70 113 V132 M43 134 H98" stroke="#c6eaff" stroke-width="7" stroke-linecap="round"/>
+<text x="87" y="163" text-anchor="middle" fill="#ffffff" font-size="18" font-weight="700" font-family="system-ui,sans-serif">Monitor</text>
+<text x="87" y="184" text-anchor="middle" fill="#c8d9ff" font-size="14" font-family="system-ui,sans-serif">Output visual</text>
+</g>
+<!-- Speaker -->
+<g transform="translate(302 125)">
+<rect x="0" y="0" width="70" height="100" rx="10" fill="#142044" stroke="#a9a0ff" stroke-width="3"/>
+<circle cx="35" cy="34" r="17" fill="#7169db" stroke="#e5e4ff" stroke-width="2"/>
+<circle cx="35" cy="34" r="6" fill="#202b55"/>
+<circle cx="35" cy="73" r="12" fill="#7169db" stroke="#e5e4ff" stroke-width="2"/>
+<circle cx="35" cy="73" r="4" fill="#202b55"/>
+<path d="M83 37 Q101 51 83 66 M94 26 Q121 51 94 77" stroke="#65eaff" stroke-width="4" fill="none" stroke-linecap="round"/>
+<text x="51" y="157" text-anchor="middle" fill="#ffffff" font-size="18" font-weight="700" font-family="system-ui,sans-serif">Speaker</text>
+<text x="51" y="178" text-anchor="middle" fill="#c8d9ff" font-size="14" font-family="system-ui,sans-serif">Output audio</text>
+</g>
+<!-- Printer -->
+<g transform="translate(493 127)">
+<rect x="23" y="0" width="104" height="47" rx="4" fill="#e9f3ff" stroke="#9abaff" stroke-width="2"/>
+<path d="M38 13 H111 M38 23 H102 M38 33 H108" stroke="#5976a8" stroke-width="3"/>
+<rect x="0" y="36" width="150" height="74" rx="12" fill="#a9bddf" stroke="#e1edff" stroke-width="3"/>
+<rect x="18" y="51" width="114" height="35" rx="5" fill="#243d69"/>
+<circle cx="127" cy="61" r="4" fill="#55f2c4"/>
+<path d="M35 89 H115 V132 H35Z" fill="#f7fbff" stroke="#9abaff" stroke-width="2"/>
+<path d="M47 101 H102 M47 111 H96 M47 121 H105" stroke="#7893c1" stroke-width="3"/>
+<text x="75" y="161" text-anchor="middle" fill="#ffffff" font-size="18" font-weight="700" font-family="system-ui,sans-serif">Printer</text>
+<text x="75" y="182" text-anchor="middle" fill="#c8d9ff" font-size="14" font-family="system-ui,sans-serif">Output fisik</text>
+</g>
+<!-- Lamp -->
+<g transform="translate(728 118)">
+<path d="M42 10 C12 10 0 34 13 58 C19 68 26 73 27 86 H58 C59 73 66 68 72 58 C85 34 72 10 42 10Z" fill="#ffe28a" stroke="#fff5c6" stroke-width="3"/>
+<path d="M29 88 H57 M31 98 H55 M35 108 H51" stroke="#f6c85e" stroke-width="6" stroke-linecap="round"/>
+<path d="M42 0 V-10 M5 20 L-5 12 M80 20 L90 12 M0 48 H-10 M84 48 H94" stroke="#ffdf79" stroke-width="4" stroke-linecap="round"/>
+<text x="42" y="158" text-anchor="middle" fill="#ffffff" font-size="18" font-weight="700" font-family="system-ui,sans-serif">Indikator</text>
+<text x="42" y="179" text-anchor="middle" fill="#c8d9ff" font-size="14" font-family="system-ui,sans-serif">Status sistem</text>
+</g>
+<rect x="30" y="333" width="900" height="36" rx="9" fill="#eaf5ff" fill-opacity=".1" stroke="#8baaff" stroke-opacity=".5"/>
+<text x="480" y="356" text-anchor="middle" fill="#effaff" font-size="15" font-family="system-ui,sans-serif">Data diproses → hasil ditampilkan, diperdengarkan, dicetak, atau dijadikan tindakan</text>
+</svg>
+<figcaption style="margin-top:10px;color:var(--muted);font-size:13px">Gambar 1. Jenis output komputer: visual (monitor), audio (speaker), fisik (printer), dan indikator status.</figcaption>
+</figure>
+
 <h3>5. Penerapan IPO dalam AI</h3>
 <div class="card"><h3>Chatbot AI</h3><p><b>Input:</b> pertanyaan pengguna. <b>Process:</b> aplikasi menyiapkan konteks dan model AI menghasilkan respons berdasarkan pola yang dipelajari. <b>Output:</b> jawaban teks. Jawaban AI tetap perlu diperiksa karena dapat keliru atau kekurangan konteks.</p></div>
 <div class="card"><h3>Pengenalan wajah</h3><p><b>Input:</b> gambar atau bingkai video. <b>Process:</b> sistem mendeteksi area wajah dan mengekstrak ciri sesuai tujuan. <b>Output:</b> lokasi wajah atau hasil pencocokan menurut ambang sistem.</p></div>
