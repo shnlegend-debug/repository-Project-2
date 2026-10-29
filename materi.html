@@ -17,7 +17,7 @@ main{width:min(1100px,90%);margin:48px auto}.eyebrow{color:var(--green);letter-s
 <body>
 <header>
 <a class="brand" href="index.html"><span>◈</span> SEHAN<span class="dim">//</span>SYSTEM</a>
-<nav><a href="index.html">[01] HOME</a><a href="about.html">[02] ABOUT</a><a href="materi.html">[03] MATERI</a><a href="index.html#projects">[04] PROJECTS</a><a href="index.html#contact">[05] CONTACT</a></nav>
+<nav><a href="index.html">[01] HOME</a><a href="about.html">[02] ABOUT</a><a href="materi.html">[03] MATERI</a><a href="materi.html#ipo-ai">[04] IPO + AI</a><a href="index.html#projects">[05] PROJECTS</a><a href="index.html#contact">[06] CONTACT</a></nav>
 </header>
 <main>
 <p class="eyebrow">&gt; KNOWLEDGE DATABASE / STUDY MODE</p>
@@ -30,6 +30,7 @@ main{width:min(1100px,90%);margin:48px auto}.eyebrow{color:var(--green);letter-s
 <section class="card"><span class="tag">MODUL 05</span><h2>Digital Security, Ethics and Privacy</h2><p>Risiko keamanan digital, serangan internet dan jaringan, hak cipta, etika teknologi, dan privasi.</p><a href="#modul05">Buka materi ↓</a></section>
 <section class="card"><span class="tag">MODUL 06</span><h2>Komponen Komputer</h2><p>Komponen di dalam casing, processor, memory, adapter, power supply, baterai, dan representasi data.</p><a href="#modul06">Buka materi ↓</a> · <a href="TTI-6.pdf" target="_blank" rel="noreferrer">PDF sumber ↗</a></section>
 <section class="card"><span class="tag">MODUL 07</span><h2>Input dan Output</h2><p>Perangkat untuk memasukkan data dan menampilkan informasi: keyboard, scanner, display, printer, audio, dan lainnya.</p><a href="#modul07">Buka materi ↓</a> · <a href="TTI-7.pdf" target="_blank" rel="noreferrer">PDF sumber ↗</a></section>
+<section class="card"><span class="tag">STUDI TAMBAHAN</span><h2>Input, Process, Output & AI</h2><p>Konsep IPO, perangkat input/output, proses komputer, data dan informasi, contoh AI, validasi, serta latihan.</p><a href="#ipo-ai">Buka materi ↓</a></section>
 </div>
 <details class="module" id="modul02" open>
 <summary>MODUL 02 — CONNECTING AND COMMUNICATING ONLINE</summary>
@@ -225,6 +226,129 @@ main{width:min(1100px,90%);margin:48px auto}.eyebrow{color:var(--green);letter-s
 <ol><li>Jelaskan pengertian input dan berikan tiga contohnya.</li><li>Komponen apa saja yang termasuk kategori input device?</li><li>Apa perbedaan mouse, touchpad, dan trackball?</li><li>Jelaskan fungsi OCR, OMR, dan RFID.</li><li>Sebutkan komponen komputer yang digunakan untuk menampilkan informasi.</li><li>Bandingkan ink-jet printer, laser printer, dan all-in-one printer.</li></ol>
 <p class="muted"><b>Referensi:</b> B. Shelly & E. Vermaat, <i>Discovering Computers 2016: Living in a Digital World</i>.</p>
 </details>
+
+<details class="module" id="ipo-ai" open>
+<summary>STUDI TAMBAHAN — INPUT, PROSES, OUTPUT DALAM SISTEM KOMPUTER DAN AI</summary>
+<p><b>Tujuan belajar:</b> menjelaskan konsep Input, Process, Output (IPO); mengenali perangkat input dan output; memahami peran CPU, RAM, sistem operasi, dan aplikasi; serta menghubungkan IPO dengan AI, data, validasi, dan penggunaan sehari-hari.</p>
+<svg viewBox="0 0 900 230" role="img" aria-label="Diagram Input menuju Process menuju Output dan Storage" style="display:block;width:100%;height:auto;margin:18px 0 26px;border:1px solid rgba(0,246,255,.3);border-radius:8px;background:linear-gradient(135deg,rgba(0,246,255,.07),rgba(255,43,214,.06))">
+  <g font-family="monospace" text-anchor="middle" font-size="24" fill="#e4fbff">
+    <rect x="30" y="70" width="220" height="88" rx="10" fill="#06202b" stroke="#00f6ff" stroke-width="2"/><text x="140" y="123">INPUT</text>
+    <path d="M255 114 H310 l-12 -9 m12 9 l-12 9" stroke="#00f6ff" stroke-width="3" fill="none"/>
+    <rect x="320" y="70" width="240" height="88" rx="10" fill="#10202c" stroke="#00ffd5" stroke-width="2"/><text x="440" y="123">PROCESS</text>
+    <path d="M565 114 H620 l-12 -9 m12 9 l-12 9" stroke="#00f6ff" stroke-width="3" fill="none"/>
+    <rect x="630" y="70" width="220" height="88" rx="10" fill="#24152c" stroke="#ff20d6" stroke-width="2"/><text x="740" y="123">OUTPUT</text>
+    <text x="450" y="198" font-size="16" fill="#9ab8c4">Storage dapat menyimpan data dan hasil untuk proses berikutnya.</text>
+  </g>
+</svg>
+
+<h3>1. Konsep dasar IPO</h3>
+<p><b>Input</b> adalah data atau instruksi yang masuk ke sistem. <b>Process</b> adalah langkah untuk mengolah input berdasarkan program, aturan, atau model. <b>Output</b> adalah hasil yang ditampilkan kepada pengguna atau dikirim ke sistem lain.</p>
+<div class="grid">
+<div class="card"><h3>INPUT</h3><p>Data dan instruksi, misalnya angka 8 dan 4 serta perintah penjumlahan.</p></div>
+<div class="card"><h3>PROCESS</h3><p>Sistem menjalankan operasi penjumlahan: 8 + 4.</p></div>
+<div class="card"><h3>OUTPUT</h3><p>Kalkulator menampilkan hasil 12.</p></div>
+</div>
+<p>Alur umum adalah <b>Input → Process → Output</b>. Banyak sistem juga menyimpan hasil sehingga dapat digunakan kembali sebagai input pada proses berikutnya.</p>
+
+<h3>2. Input: data yang masuk ke sistem</h3>
+<p>Input dapat berupa teks, angka, suara, gambar, video, sinyal sensor, berkas, atau permintaan dari program lain.</p>
+<ul>
+<li><b>Keyboard:</b> memasukkan teks dan perintah.</li>
+<li><b>Mouse/touchpad:</b> memilih objek dan mengendalikan penunjuk.</li>
+<li><b>Mikrofon:</b> menangkap suara.</li>
+<li><b>Kamera:</b> menangkap gambar atau video.</li>
+<li><b>Scanner:</b> mengubah dokumen fisik menjadi data digital.</li>
+<li><b>Layar sentuh:</b> menerima sentuhan pengguna.</li>
+<li><b>Sensor:</b> membaca kondisi seperti suhu, lokasi, atau gerakan.</li>
+</ul>
+<p>Input tidak selalu berasal dari manusia. Server dapat menerima permintaan jaringan, aplikasi dapat membaca berkas, dan perangkat IoT dapat memperoleh data dari sensor secara otomatis. Data perlu diperiksa karena input yang salah format, tidak lengkap, atau berisik dapat menghasilkan keluaran yang keliru.</p>
+
+<h3>3. Process: bagaimana sistem mengolah data</h3>
+<ul>
+<li><b>CPU (Central Processing Unit)</b> menjalankan instruksi dan operasi umum.</li>
+<li><b>RAM (Random Access Memory)</b> menampung data dan instruksi yang sedang digunakan agar cepat diakses.</li>
+<li><b>Sistem operasi</b> mengelola proses, memori, perangkat, berkas, dan sumber daya komputer.</li>
+<li><b>Aplikasi</b> menerapkan aturan atau fungsi yang diperlukan pengguna.</li>
+<li><b>GPU</b> mempercepat pekerjaan paralel tertentu, termasuk banyak operasi grafis dan AI.</li>
+</ul>
+<p>Contoh aplikasi nilai: sistem menerima nilai tugas, UTS, dan UAS; memvalidasi rentang nilai; menghitung nilai akhir berdasarkan bobot; lalu menentukan kategori berdasarkan aturan. Proses dapat sederhana seperti penjumlahan atau kompleks seperti menganalisis banyak data dengan model AI.</p>
+
+<h3>4. Output: hasil pengolahan</h3>
+<ul>
+<li><b>Monitor:</b> menampilkan teks, gambar, grafik, dan antarmuka.</li>
+<li><b>Printer:</b> menghasilkan dokumen fisik.</li>
+<li><b>Speaker/headphone:</b> menyampaikan suara.</li>
+<li><b>Proyektor:</b> menampilkan gambar pada bidang yang lebih besar.</li>
+<li><b>Aktuator:</b> menjalankan tindakan fisik, misalnya menggerakkan motor.</li>
+</ul>
+<p>Output juga dapat berupa berkas, notifikasi, laporan, data jaringan, atau respons API. Output yang baik harus relevan, mudah dipahami, dan tidak menyesatkan. Sistem penting sebaiknya memberikan status atau peringatan saat diperlukan.</p>
+
+<h3>5. Penerapan IPO dalam AI</h3>
+<div class="card"><h3>Chatbot AI</h3><p><b>Input:</b> pertanyaan pengguna. <b>Process:</b> aplikasi menyiapkan konteks dan model AI menghasilkan respons berdasarkan pola yang dipelajari. <b>Output:</b> jawaban teks. Jawaban AI tetap perlu diperiksa karena dapat keliru atau kekurangan konteks.</p></div>
+<div class="card"><h3>Pengenalan wajah</h3><p><b>Input:</b> gambar atau bingkai video. <b>Process:</b> sistem mendeteksi area wajah dan mengekstrak ciri sesuai tujuan. <b>Output:</b> lokasi wajah atau hasil pencocokan menurut ambang sistem.</p></div>
+<div class="card"><h3>Penerjemah otomatis</h3><p><b>Input:</b> teks dalam bahasa sumber. <b>Process:</b> model memproses konteks bahasa. <b>Output:</b> teks dalam bahasa tujuan.</p></div>
+<div class="card"><h3>Sistem rekomendasi</h3><p><b>Input:</b> riwayat interaksi atau karakteristik item yang relevan. <b>Process:</b> model memperkirakan item yang mungkin sesuai. <b>Output:</b> daftar rekomendasi.</p></div>
+<p>Hasil AI dipengaruhi kualitas data, konteks, bias, rancangan model, dan cara evaluasi. Periksa hasilnya terutama ketika digunakan untuk keputusan penting.</p>
+
+<h3>6. Data, informasi, dan alur data AI</h3>
+<p><b>Data</b> adalah fakta atau nilai yang direkam. <b>Informasi</b> adalah data yang diolah atau diberi konteks sehingga lebih bermakna. Contoh: data 72, 85, dan 90 menghasilkan informasi berupa rata-rata 82,33.</p>
+<ol>
+<li><b>Pengumpulan:</b> memperoleh data dari sumber yang sah dan relevan.</li>
+<li><b>Validasi:</b> memeriksa format, kelengkapan, dan konsistensi.</li>
+<li><b>Persiapan:</b> membersihkan dan menyusun data sesuai kebutuhan.</li>
+<li><b>Pemrosesan/inferensi:</b> model menghasilkan prediksi, klasifikasi, atau respons.</li>
+<li><b>Evaluasi:</b> membandingkan hasil dengan kriteria yang sesuai.</li>
+<li><b>Penyajian/penyimpanan:</b> menampilkan atau menyimpan hasil jika diperlukan.</li>
+</ol>
+<p>Pelatihan model berbeda dari inferensi. Pelatihan menyesuaikan parameter model menggunakan data, sedangkan inferensi menggunakan model yang tersedia untuk menghasilkan keluaran dari input baru. Privasi dan keamanan perlu dijaga: gunakan data secara sah, batasi akses, dan hindari mengumpulkan informasi pribadi secara berlebihan.</p>
+
+<h3>7. IPO dalam kehidupan sehari-hari</h3>
+<div style="overflow-x:auto"><table style="width:100%;border-collapse:collapse;min-width:620px"><thead><tr><th style="text-align:left;padding:10px;border-bottom:1px solid var(--cyan)">Sistem</th><th style="text-align:left;padding:10px;border-bottom:1px solid var(--cyan)">Input</th><th style="text-align:left;padding:10px;border-bottom:1px solid var(--cyan)">Process</th><th style="text-align:left;padding:10px;border-bottom:1px solid var(--cyan)">Output</th></tr></thead><tbody>
+<tr><td style="padding:10px;border-bottom:1px solid #24404b">Absensi digital</td><td style="padding:10px;border-bottom:1px solid #24404b">ID/kartu</td><td style="padding:10px;border-bottom:1px solid #24404b">Memeriksa identitas dan waktu</td><td style="padding:10px;border-bottom:1px solid #24404b">Status kehadiran</td></tr>
+<tr><td style="padding:10px;border-bottom:1px solid #24404b">ATM</td><td style="padding:10px;border-bottom:1px solid #24404b">Autentikasi dan pilihan transaksi</td><td style="padding:10px;border-bottom:1px solid #24404b">Memeriksa izin dan saldo</td><td style="padding:10px;border-bottom:1px solid #24404b">Uang, bukti, atau status</td></tr>
+<tr><td style="padding:10px;border-bottom:1px solid #24404b">Navigasi</td><td style="padding:10px;border-bottom:1px solid #24404b">Lokasi dan tujuan</td><td style="padding:10px;border-bottom:1px solid #24404b">Menghitung rute</td><td style="padding:10px;border-bottom:1px solid #24404b">Peta dan perkiraan waktu</td></tr>
+<tr><td style="padding:10px;border-bottom:1px solid #24404b">E-commerce</td><td style="padding:10px;border-bottom:1px solid #24404b">Kata pencarian/filter</td><td style="padding:10px;border-bottom:1px solid #24404b">Mencari dan mengurutkan</td><td style="padding:10px;border-bottom:1px solid #24404b">Daftar produk</td></tr>
+<tr><td style="padding:10px;border-bottom:1px solid #24404b">Aplikasi kesehatan</td><td style="padding:10px;border-bottom:1px solid #24404b">Data pengguna/sensor</td><td style="padding:10px;border-bottom:1px solid #24404b">Merangkum pengukuran</td><td style="padding:10px;border-bottom:1px solid #24404b">Grafik atau peringatan</td></tr>
+<tr><td style="padding:10px">Sistem keamanan</td><td style="padding:10px">Log/peristiwa</td><td style="padding:10px">Membandingkan pola</td><td style="padding:10px">Notifikasi pemeriksaan</td></tr>
+</tbody></table></div>
+<p>IPO dapat berulang berkali-kali. Aplikasi navigasi, misalnya, menerima pembaruan lokasi, menghitung ulang rute, lalu menampilkan instruksi berikutnya.</p>
+
+<h3>8. Validasi, kesalahan, dan keandalan</h3>
+<ul>
+<li>Validasi format dan rentang input.</li>
+<li>Berikan pesan kesalahan yang jelas dan dapat ditindaklanjuti.</li>
+<li>Periksa hasil sebelum menjalankan tindakan penting.</li>
+<li>Catat kejadian yang relevan tanpa menyimpan data sensitif secara berlebihan.</li>
+<li>Sediakan pemulihan jika proses gagal.</li>
+<li>Uji contoh normal, batas, dan input tidak valid.</li>
+</ul>
+<p>Untuk AI, evaluasi dapat mencakup akurasi, tingkat kesalahan, ketahanan terhadap input berbeda, bias, dan kesesuaian hasil dengan tujuan. Satu metrik saja belum tentu cukup untuk menilai kualitas sistem.</p>
+
+<h3>9. Mini studi kasus: sistem perpustakaan</h3>
+<p><b>Input:</b> ID anggota, kode buku, dan pilihan peminjaman/pengembalian.</p>
+<p><b>Process:</b> validasi ID dan kode buku; periksa status anggota; periksa ketersediaan buku; perbarui transaksi jika aturan terpenuhi; simpan perubahan secara konsisten.</p>
+<p><b>Output:</b> konfirmasi transaksi, tenggat pengembalian, atau alasan transaksi ditolak.</p>
+<p>Catatan transaksi perlu disimpan agar dapat digunakan kembali. Sistem juga harus mencegah dua pengguna meminjam salinan terakhir secara bersamaan jika hanya satu peminjaman yang diizinkan. Ini membutuhkan konsistensi data dan penanganan permintaan yang terjadi bersamaan.</p>
+
+<h3>10. Kesimpulan</h3>
+<p>IPO merupakan model dasar untuk memahami sistem komputer: input menyediakan data atau instruksi, process mengolahnya, dan output menyampaikan hasil. Penyimpanan dapat melengkapi alur tersebut. Dalam AI, proses dapat memakai model yang dipelajari dari data untuk membuat prediksi, klasifikasi, rekomendasi, atau menghasilkan konten. Kualitas hasil bergantung pada input, rancangan proses, evaluasi, dan cara output digunakan. Sistem yang baik memperhatikan validasi, keamanan, privasi, serta kejelasan hasil.</p>
+
+<h3>Latihan dan evaluasi</h3>
+<ol>
+<li>Jelaskan dengan kata-katamu sendiri arti Input, Process, dan Output.</li>
+<li>Tentukan IPO pada kalkulator ketika menghitung 15 × 6.</li>
+<li>Sebutkan empat perangkat input dan tiga perangkat output beserta fungsinya.</li>
+<li>Apa perbedaan peran CPU dan RAM?</li>
+<li>Mengapa input tidak valid dapat menyebabkan output yang salah?</li>
+<li>Uraikan IPO pada aplikasi navigasi dari lokasi saat ini ke tujuan.</li>
+<li>Uraikan IPO pada chatbot AI dan sebutkan satu alasan jawabannya perlu diperiksa.</li>
+<li>Apa perbedaan data dan informasi? Berikan contoh.</li>
+<li>Rancang alur IPO sederhana untuk sistem peminjaman buku.</li>
+<li>Pilih aplikasi sehari-hari dan identifikasi input, process, output, serta data yang perlu dijaga privasinya.</li>
+</ol>
+<p class="muted"><b>Catatan belajar:</b> gambarkan diagram IPO untuk setiap contoh dan jelaskan bagaimana output satu tahap dapat menjadi input tahap berikutnya.</p>
+</details>
+
 <p class="note"><b>Catatan sumber:</b> Materi ini merupakan ringkasan belajar berdasarkan PDF resmi dosen. Gunakan <a href="TTI-2.pdf" target="_blank" rel="noreferrer">TTI#2</a>, <a href="TTI-6.pdf" target="_blank" rel="noreferrer">TTI#6</a>, dan <a href="TTI-7.pdf" target="_blank" rel="noreferrer">TTI#7</a> sebagai referensi utama.</p>
 </main>
 <footer><span>© 2026 SEHAN//SYSTEM</span><span>KNOWLEDGE DATABASE</span><span>LEARN • BUILD • SECURE</span></footer>
